@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Link Shortner</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="text-cont">
+				<h2>Short Your Link</h2>
+				<p>
+					Paste your link here we will provide you with a Shortner version that
+					you will be able to use anywhere
+				</p>
+			</div>
+
+			<div class="shortner-cont">
+				<div class="back-color"></div>
+				<div class="input-cont">
+					<input type="text" id="shortner" placeholder="Paste ur link here" />
+					<button id="submit-btn" onclick="shortenUrl()">Shorten Link</button>
+				</div>
+				<div id="output"></div>
+			</div>
+			<script src="index.js" defer></script>
+		</div>
+	</body>
+</html>
