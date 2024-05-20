@@ -1,6 +1,6 @@
 const baseUrl = "https://api.themoviedb.org/3";
 const baseImgPath = "https://image.tmdb.org/t/p/original";
-const apiKey = "56e81bc233109a23c91a7faf4deb6901";
+const apiKey = "YOUR_API_KEY";
 
 const apiPaths = {
 	fetchTrending: `${baseUrl}/trending/all/day?api_key=${apiKey}&language=en-US`,
